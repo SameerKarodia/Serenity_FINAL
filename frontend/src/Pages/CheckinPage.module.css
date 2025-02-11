@@ -1,0 +1,58 @@
+.checkinContainer{
+    color:white;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/starryPic.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.checkinHeader{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction:row;
+    text-align:center;
+    width:100%;
+    position: relative;
+}
+.checkinHeader h1{
+    font-size: 3rem;
+    color: white;
+    font-weight:bold;
+    font-family: "Alex Brush", cursive;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position:absolute;
+    
+}
+.checkinHeader button{
+    border:2px solid black;
+    background-color:#ededed;
+    border-radius:10px;
+    box-shadow: 0 3px 8px #ededed;
+    padding: 10px 20px;
+    margin-left:auto;
+
+
+
+}
+.checkinWebcam{
+    display:flex;
+    margin-top:1%;
+
+}
+
+@media (max-width: 700px) {
+    .checkinHeader h1{
+        margin-top:2%;
+        font-size: 1.6rem;
+        width:70%;
+    }
+    .checkinHeader button{
+        padding: 5px;
+        margin-left:15px;
+    }
+    
+}
