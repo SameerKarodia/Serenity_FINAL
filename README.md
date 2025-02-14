@@ -1,6 +1,6 @@
 # Mental Health AI App
 
-This is a **FastAPI + React + MySQL** application that helps monitor **stress levels**, provide **coping strategies**, and allow **event logging & journaling**.
+This is a **FastAPI + React + MySQL** application that helps monitor **stress levels**, provide **coping strategies**, and allow **journaling**.
 
 ## Overview
 
